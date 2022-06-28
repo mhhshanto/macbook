@@ -1,4 +1,4 @@
-// memory
+// memory calculation
 document.getElementById('memory-8gb').addEventListener('click',function(){
     const memory =  document.getElementById('memory-price').innerHTML
     if(memory == 180){
