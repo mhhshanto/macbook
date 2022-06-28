@@ -23,7 +23,7 @@ document.getElementById('memory-16gb').addEventListener('click',function(){
 document.getElementById('total').innerHTML = totall
    }
 })
-// storage
+// storage calculation
 document.getElementById('storage-256gb').addEventListener('click',function(){
     const memory =  document.getElementById('storage-price').innerHTML
     if(memory == 100){
